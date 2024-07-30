@@ -1,0 +1,21 @@
+{
+    "users" : {
+        "standardUser": "standard_user",
+        "lockedOutUser": "locked_out_user"
+    },
+    "passwords": {
+        "password": "secret_sauce"
+    },
+    "url" : {
+        "pathName": "pathname",
+        "urlPath": "/inventory.html"
+
+    },
+    "errors": {
+        "singleErrorLength": 1,
+        "passwordRequiredErrorMessage": "Epic sadface: Password is required",
+        "usernameRequiredErrorMessage": "Epic sadface: Username is required",
+        "lockedOutUserErrorMessage": "Epic sadface: Sorry, this user has been locked out."
+    }
+    
+}
