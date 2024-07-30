@@ -14,7 +14,7 @@ describe('Testing login', () => {
         cy.openLoginPage();
         cy.contains('Swag Labs').should('exist');
         
-        cy.fixture('testData').as('testData')
+        cy.fixture('testData').as('testData');
     });
 
     //Happy Path
